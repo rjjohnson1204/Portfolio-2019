@@ -53,6 +53,10 @@ body {
     top: 2vw;
     background-size: cover;
 }
+
+#Portriat {
+    border-radius: 1vw;
+}
 .footer {
     position: absolute;
     bottom: 0;
