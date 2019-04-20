@@ -53,7 +53,9 @@ body {
     top: 2vw;
     background-size: cover;
 }
-
+.title {
+    padding-top: 65px;
+}
 #Portriat {
     border-radius: 1vw;
     border: .3vw solid deepskyblue;
@@ -73,7 +75,7 @@ body {
 
 }
 .project_img {
-    width: 34%;
+    width: 49%;
     margin-top: 10%;
     margin-right: 10%;
 }
@@ -85,6 +87,11 @@ body {
         border-radius: 5px;
         
     }
+.proj-des {
+    width: 48%;
+    text-align: center;
+    font-weight: 700;
+}
 
 
 .footer {
