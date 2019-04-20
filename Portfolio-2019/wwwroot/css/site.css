@@ -52,17 +52,28 @@ body {
     position: fixed;
     top: 2vw;
     background-size: cover;
-    width: 13%;
 }
 
 #Portriat {
     border-radius: 1vw;
     border: .3vw solid deepskyblue;
-    width: 15%;
+    width: 200px;
 }
 #about {
-    width: 31vw;
+    width: 400px;
+    background: -webkit-linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 0vw;
+    margin-top: 0vw;
 }
+
+#profile{
+
+
+}
+
+
 .footer {
     position: absolute;
     bottom: 0;
