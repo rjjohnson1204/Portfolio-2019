@@ -7,6 +7,7 @@
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
@@ -15,7 +16,6 @@
               crossorigin="anonymous"
               integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE="/>
     </environment>
-    <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
     <header>
@@ -32,8 +32,11 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Projects">Projects</a>
                         </li>
+                        @*<li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            </li>*@
                     </ul>
                 </div>
             </div>
@@ -43,9 +46,12 @@
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
+
         </main>
     </div>
+    <img id="BG" src="~/Assets/pencils-bg.jpg" />
 
+    <img id="BG-mobile" />
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2019 - Portfolio_2019 - <a asp-area="" asp-page="/Privacy">Privacy</a>
