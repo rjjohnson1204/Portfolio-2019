@@ -35,8 +35,8 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Projects">Projects</a>
                         </li>
                         @*<li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>*@
+                                <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            </li>*@
                     </ul>
                 </div>
             </div>
@@ -46,11 +46,12 @@
         <partial name="_CookieConsentPartial" />
         <main role="main" class="pb-3">
             @RenderBody()
-           
+
         </main>
     </div>
     <img id="BG" src="~/Assets/pencils-bg.jpg" />
-   
+
+    <img id="BG-mobile" />
     <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2019 - Portfolio_2019 - <a asp-area="" asp-page="/Privacy">Privacy</a>
